@@ -1,0 +1,15 @@
+{
+  "name": "technicolor-scripts",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node ./index.ts"
+  },
+  "dependencies": {
+    "typescript": "^6.0.0-beta"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3"
+  }
+}

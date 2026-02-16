@@ -1,0 +1,26 @@
+{
+  "name": "technicolor-theme",
+  "displayName": "technicolor-theme",
+  "description": "Dark and pink theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Technicolor Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/technicolor-dark.json"
+      },
+      {
+        "label": "Technicolor Light",
+        "uiTheme": "vs-light",
+        "path": "./themes/technicolor-light.json"
+      }
+    ]
+  }
+}
