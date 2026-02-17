@@ -11,5 +11,9 @@
   },
   "devDependencies": {
     "@types/node": "^25.2.3"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "quoteProps": "consistent"
   }
 }

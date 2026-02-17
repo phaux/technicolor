@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
     "allowImportingTsExtensions": true,
     "module": "nodenext",
     "noEmit": true,

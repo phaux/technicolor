@@ -1,6 +1,5 @@
 {
-  "name": "Technicolor Dark",
-  "base": "vs-dark",
+  "$schema": "vscode://schemas/color-theme",
   "colors": {
     "focusBorder": "#00000000",
     "foreground": "#E0E0EB",
@@ -105,8 +104,18 @@
     "editor.lineHighlightBackground": "#2B2B3B",
     "editorLineNumber.foreground": "#dedcd550",
     "editorLineNumber.activeForeground": "#9C9CB5",
-    "editorIndentGuide.background": "#ffffff15",
-    "editorIndentGuide.activeBackground": "#ffffff30",
+    "editorIndentGuide.background1": "#ffffff15",
+    "editorIndentGuide.background2": "#ffffff15",
+    "editorIndentGuide.background3": "#ffffff15",
+    "editorIndentGuide.background4": "#ffffff15",
+    "editorIndentGuide.background5": "#ffffff15",
+    "editorIndentGuide.background6": "#ffffff15",
+    "editorIndentGuide.activeBackground1": "#ffffff30",
+    "editorIndentGuide.activeBackground2": "#ffffff30",
+    "editorIndentGuide.activeBackground3": "#ffffff30",
+    "editorIndentGuide.activeBackground4": "#ffffff30",
+    "editorIndentGuide.activeBackground5": "#ffffff30",
+    "editorIndentGuide.activeBackground6": "#ffffff30",
     "editorWhitespace.foreground": "#ffffff15",
     "editor.findMatchBackground": "#e6cc7722",
     "editor.findMatchHighlightBackground": "#e6cc7744",
@@ -172,8 +181,6 @@
     "peekViewResult.background": "#1A1A23",
     "settings.headerForeground": "#E0E0EB",
     "settings.modifiedItemIndicator": "#4d9375",
-    "welcomePage.buttonBackground": "#2f363d",
-    "welcomePage.buttonHoverBackground": "#444d56",
     "problemsErrorIcon.foreground": "#D06A97",
     "problemsWarningIcon.foreground": "#DB8380",
     "problemsInfoIcon.foreground": "#85B0ED",
@@ -187,7 +194,7 @@
     "editorInlayHint.background": "#2B2B3B",
     "editorStickyScroll.background": "#2B2B3B",
     "editorStickyScrollHover.background": "#2B2B3B",
-    "menu.separatorBackground": "#191919"
+
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
