@@ -20,15 +20,15 @@
         "element.background": "#CECCFF0D",
         "element.hover": "#CECCFF16",
         "element.active": "#B9B3FF22",
-        "element.selected": "#A099FF2D",
-        "element.selection_background": "#A099FF2D",
+        "element.selected": "#A099FF2A",
+        "element.selection_background": "#A099FF2A",
         "element.disabled": "#00000000",
-        "drop_target.background": "#498F8F22",
+        "drop_target.background": "#498F8F2A",
         "drop_target.border": "#2B2B3B",
         "ghost_element.background": "#00000000",
         "ghost_element.hover": "#CECCFF16",
         "ghost_element.active": "#B9B3FF22",
-        "ghost_element.selected": "#A099FF2D",
+        "ghost_element.selected": "#A099FF2A",
         "ghost_element.disabled": "#00000000",
         "text": "#E0E0EB",
         "text.muted": "#9C9CB5",
@@ -47,8 +47,8 @@
         "tab_bar.background": "#1E1E29",
         "tab.inactive_background": "#1E1E29",
         "tab.active_background": "#1A1A23",
-        "search.match_background": "#3A8A6D22",
-        "search.active_match_background": "#78CCAD22",
+        "search.match_background": "#948BD92A",
+        "search.active_match_background": "#B3ACE82A",
         "panel.background": "#1E1E29",
         "panel.overlay_background": "#1E1E29",
         "panel.overlay_hover": "#22222F",
@@ -76,15 +76,15 @@
         "editor.line_number": "#6C6C93",
         "editor.active_line_number": "#E0E0EB",
         "editor.hover_line_number": "#9C9CB5",
-        "editor.debugger_active_line.background": "#E08BB1AA",
+        "editor.debugger_active_line.background": "#D06A972A",
         "editor.invisible": "#5E5E6E",
         "editor.indent_guide": "#B9B3FF22",
         "editor.indent_guide_active": "#B9B3FF36",
         "editor.wrap_guide": "#B9B3FF22",
         "editor.active_wrap_guide": "#B9B3FF36",
-        "editor.document_highlight.bracket_background": "#A099FF2D",
-        "editor.document_highlight.read_background": "#9C5BA622",
-        "editor.document_highlight.write_background": "#688ABA22",
+        "editor.document_highlight.bracket_background": "#B3ACE82A",
+        "editor.document_highlight.read_background": "#85B0ED2A",
+        "editor.document_highlight.write_background": "#D08DD92A",
         "terminal.background": "#1A1A23",
         "terminal.foreground": "#9C9CB5",
         "terminal.bright_foreground": "#E0E0EB",
@@ -116,25 +116,25 @@
         "link_text.hover": "#948BD9",
         "version_control.added": "#55BD97",
         "version_control.modified": "#948BD9",
-        "version_control.word_added": "#3A8A6D22",
-        "version_control.word_deleted": "#94466922",
+        "version_control.word_added": "#55BD972A",
+        "version_control.word_deleted": "#D06A972A",
         "version_control.renamed": "#78D0D0",
         "version_control.conflict": "#D08DD9",
         "version_control.ignored": "#5E5E6E",
         "version_control.deleted": "#D06A97",
         "version_control.conflict_marker.ours": "#85B0ED",
-        "version_control.conflict_marker.theirs": "#CE9F7D",
+        "version_control.conflict_marker.theirs": "#D08DD9",
         "conflict": "#D08DD9",
-        "conflict.background": "#9C5BA622",
+        "conflict.background": "#9C5BA62A",
         "conflict.border": "#9C5BA6",
         "created": "#55BD97",
-        "created.background": "#3A8A6D22",
+        "created.background": "#3A8A6D2A",
         "created.border": "#3A8A6D",
         "deleted": "#D06A97",
-        "deleted.background": "#94466922",
+        "deleted.background": "#9446692A",
         "deleted.border": "#944669",
         "error": "#DB8380",
-        "error.background": "#B3676622",
+        "error.background": "#B367662A",
         "error.border": "#B36766",
         "hidden": "#5E5E6E",
         "hidden.background": "#00000000",
@@ -146,66 +146,66 @@
         "ignored.background": "#00000000",
         "ignored.border": "#1E1E29",
         "info": "#85B0ED",
-        "info.background": "#688ABA22",
+        "info.background": "#688ABA2A",
         "info.border": "#688ABA",
         "modified": "#948BD9",
-        "modified.background": "#6D65A622",
+        "modified.background": "#6D65A62A",
         "modified.border": "#6D65A6",
         "predictive": "#6D65A6",
         "predictive.background": "#CECCFF0D",
         "predictive.border": "#6D65A6",
         "renamed": "#78D0D0",
-        "renamed.background": "#498F8F22",
+        "renamed.background": "#498F8F2A",
         "renamed.border": "#498F8F",
         "success": "#55BD97",
-        "success.background": "#3A8A6D22",
+        "success.background": "#3A8A6D2A",
         "success.border": "#3A8A6D",
         "unreachable": "#944669",
         "unreachable.background": "#CECCFF0D",
         "unreachable.border": "#944669",
         "warning": "#CE9F7D",
-        "warning.background": "#9C785F22",
+        "warning.background": "#9C785F2A",
         "warning.border": "#9C785F",
         "players": [
           {
             "cursor": "#948BD9",
             "background": "#948BD9",
-            "selection": "#6D65A622"
+            "selection": "#6D65A62A"
           },
           {
             "cursor": "#D06A97",
             "background": "#D06A97",
-            "selection": "#94466922"
+            "selection": "#9446692A"
           },
           {
             "cursor": "#CE9F7D",
             "background": "#CE9F7D",
-            "selection": "#9C785F22"
+            "selection": "#9C785F2A"
           },
           {
             "cursor": "#D08DD9",
             "background": "#D08DD9",
-            "selection": "#9C5BA622"
+            "selection": "#9C5BA62A"
           },
           {
             "cursor": "#78D0D0",
             "background": "#78D0D0",
-            "selection": "#498F8F22"
+            "selection": "#498F8F2A"
           },
           {
             "cursor": "#DB8380",
             "background": "#DB8380",
-            "selection": "#B3676622"
+            "selection": "#B367662A"
           },
           {
             "cursor": "#55BD97",
             "background": "#55BD97",
-            "selection": "#3A8A6D22"
+            "selection": "#3A8A6D2A"
           },
           {
             "cursor": "#85B0ED",
             "background": "#85B0ED",
-            "selection": "#688ABA22"
+            "selection": "#688ABA2A"
           }
         ],
         "syntax": {
