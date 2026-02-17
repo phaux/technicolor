@@ -6,7 +6,7 @@ export interface GetThemeOptions {
 }
 
 function toArray<T>(arr: T | T[]): T[] {
-  if (Array.isArray(arr)) return arr;
+  if (Array.isArray(arr)) return arr || true;
   return [arr];
 }
 

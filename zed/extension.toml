@@ -1,7 +1,7 @@
 id = "technicolor"
-name = "Technicolor"
+name = "Technicolor Theme"
 version = "0.0.1"
 schema_version = 1
 authors = ["Phaux"]
-description = "Technicolor theme"
+description = "Dark and colorful theme"
 repository = "https://github.com/phaux/technicolor"

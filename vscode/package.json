@@ -1,7 +1,7 @@
 {
   "name": "technicolor-theme",
-  "displayName": "technicolor-theme",
-  "description": "Dark and pink theme",
+  "displayName": "Technicolor Theme",
+  "description": "Dark and colorful theme",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.109.0"
