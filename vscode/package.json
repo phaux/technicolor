@@ -15,11 +15,6 @@
         "label": "Technicolor Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/technicolor-dark.json"
-      },
-      {
-        "label": "Technicolor Light",
-        "uiTheme": "vs",
-        "path": "./themes/technicolor-light.json"
       }
     ]
   }
