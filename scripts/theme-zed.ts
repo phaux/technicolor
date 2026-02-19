@@ -209,7 +209,7 @@ const darkTheme = {
     ],
 
     "syntax": {
-      "attribute": { color: colors.purple[1] },
+      "attribute": { color: colors.cyan[1] },
       "boolean": { color: colors.magenta[1] },
       "comment": { color: colors.ink[1], font_style: "italic" },
       "comment.doc": { color: colors.ink[1], font_style: "italic" },
