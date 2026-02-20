@@ -554,441 +554,216 @@ export const vscodeThemeDark = {
   tokenColors: [
     {
       scope: ["comment", "punctuation.definition.comment", "string.comment"],
-      settings: {
-        foreground: colors.ink[1],
-      },
+      settings: { foreground: colors.ink[1] },
     },
     {
       scope: [
-        "delimiter.bracket",
-        "delimiter",
-        "keyword.operator.rest",
-        "keyword.operator.spread",
-        "keyword.operator.type.annotation",
-        "keyword.operator.relational",
-        "keyword.operator.assignment",
-        "keyword.operator.type",
-        "meta.brace",
-        "meta.tag.block.any.html",
-        "meta.tag.inline.any.html",
-        "meta.tag.structure.input.void.html",
-        "meta.type.annotation",
-        "meta.embedded.block.github-actions-expression",
-        "storage.type.function.arrow",
-        "meta.objectliteral.ts",
-        "punctuation",
+        "punctuation.definition",
+        "punctuation.definition.dictionary",
+        "punctuation.definition.array",
+        "punctuation.definition.binding-pattern",
+        "punctuation.definition.italic",
+        "punctuation.section.embedded",
+        "punctuation.brackets.square",
+        "meta.brace.square",
       ],
-      settings: {
-        foreground: colors.purple[0],
-      },
-    },
-    {
-      scope: ["constant", "entity.name.constant", "variable.language", "meta.definition.variable"],
-      settings: {
-        foreground: colors.pink[1],
-      },
-    },
-    {
-      scope: ["entity", "entity.name"],
-      settings: {
-        foreground: colors.pink[2],
-      },
-    },
-    {
-      scope: "variable.parameter.function",
-      settings: {
-        foreground: colors.blue[1],
-      },
-    },
-    {
-      scope: ["entity.name.tag", "tag.html"],
-      settings: {
-        foreground: colors.blue[1],
-      },
-    },
-    {
-      scope: "entity.name.function",
-      settings: {
-        foreground: colors.blue[1],
-      },
-    },
-    {
-      scope: ["keyword", "storage.type.class.jsdoc", "punctuation.definition.template-expression"],
-      settings: {
-        foreground: colors.magenta[1],
-      },
+      settings: { foreground: colors.pink[0] },
     },
     {
       scope: [
+        "punctuation.definition.keyword",
+        "punctuation.definition.block",
+        "punctuation.definition.inline",
+        "punctuation.brackets",
+        "meta.brace",
+      ],
+      settings: { foreground: colors.magenta[0] },
+    },
+    {
+      scope: [
+        "punctuation",
+        "punctuation.separator",
+        "punctuation.terminator",
+        "punctuation.accessor",
+        "punctuation.definition.attribute",
+        "punctuation.definition.tag",
+        "punctuation.definition.quote",
+        "keyword.operator.access",
+        "keyword.operator.namespace",
+      ],
+      settings: { foreground: colors.purple[0] },
+    },
+    {
+      scope: [
+        "punctuation.definition.parameters",
+        "punctuation.brackets.round",
+        "meta.brace.round",
+      ],
+      settings: { foreground: colors.blue[0] },
+    },
+    {
+      scope: ["punctuation.definition.string", "punctuation.definition.raw"],
+      settings: { foreground: colors.cyan[0] },
+    },
+    {
+      scope: [
+        "meta.embedded",
+        "punctuation.definition.heading",
+        "punctuation.definition.template-expression",
+        "punctuation.definition.interpolation",
+        "punctuation.section",
+      ],
+      settings: { foreground: colors.yellow[0] },
+    },
+    {
+      scope: [
+        "keyword.operator.type",
+        "keyword.operator.optional",
+        "keyword.operator.definiteassignment",
+        "punctuation.definition.typeparameters",
+        "punctuation.definition.entity",
+        "punctuation.definition.bold",
+      ],
+      settings: { foreground: colors.orange[0] },
+    },
+    {
+      scope: [
+        "keyword",
+        "keyword.control",
+        "keyword.modifier",
+        "keyword.other",
+        "keyword.operator.ternary",
+        "keyword.operator.arrow",
         "storage",
         "storage.type",
-        "support.type.builtin",
-        "constant.language.undefined",
-        "constant.language.null",
-        "constant.language.import-export-all.ts",
+        "storage.modifier",
+        "markup.fenced_code",
       ],
-      settings: {
-        foreground: colors.magenta[1],
-      },
+      settings: { foreground: colors.magenta[1] },
     },
     {
       scope: [
-        "text.html.derivative",
-        "storage.modifier.package",
-        "storage.modifier.import",
-        "storage.type.java",
+        "keyword.operator",
+        "keyword.operator.assignment",
+        "keyword.operator.comparison",
+        "keyword.operator.logical",
+        "keyword.operator.math",
+        "keyword.operator.arithmetic",
+        "keyword.operator.expression",
+        "keyword.operator.new",
+        "entity.other",
       ],
-      settings: {
-        foreground: colors.magenta[1],
-      },
-    },
-    {
-      scope: ["string", "string punctuation.section.embedded source", "attribute.value"],
-      settings: {
-        foreground: colors.green[1],
-      },
-    },
-    {
-      scope: ["punctuation.definition.string"],
-      settings: {
-        foreground: colors.green[0],
-      },
-    },
-    {
-      scope: ["punctuation.support.type.property-name"],
-      settings: {
-        foreground: colors.purple[0],
-      },
-    },
-    {
-      scope: "support",
-      settings: {
-        foreground: colors.purple[1],
-      },
+      settings: { foreground: colors.cyan[1] },
     },
     {
       scope: [
-        "property",
-        "meta.property-name",
+        "function",
+        "entity.name.function",
+        "entity.name.tag",
+        "meta.statement.command",
+        "meta.function-call",
+        "support.function",
+        "punctuation.definition.list",
+      ],
+      settings: { foreground: colors.blue[1] },
+    },
+    {
+      scope: [
+        "entity.other.attribute-name.id",
+        "entity.other.attribute-name.pseudo-element",
+        "variable",
+      ],
+      settings: { foreground: colors.pink[1] },
+    },
+    {
+      scope: [
+        "constant",
+        "support.constant",
+        "support.variable",
+        "variable.language",
+        "entity.other.attribute-name.pseudo-class",
+      ],
+      settings: { foreground: colors.orange[1] },
+    },
+    {
+      scope: [
+        "meta.attribute",
         "meta.object-literal.key",
-        "entity.name.tag.yaml",
-        "attribute.name",
+        "meta.property-name",
+        "entity.other.attribute-name",
+        "entity.name.namespace",
+        "variable.object.property",
+        "variable.other.property",
+        "variable.other.object.property",
+        "support.type.property-name",
+        "markup.quote",
       ],
-      settings: {
-        foreground: colors.purple[1],
-      },
+      settings: { foreground: colors.purple[1] },
     },
     {
-      scope: ["entity.other.attribute-name", "invalid.deprecated.entity.other.attribute-name.html"],
-      settings: {
-        foreground: colors.purple[1],
-      },
-    },
-    {
-      scope: ["variable", "identifier"],
-      settings: {
-        foreground: colors.pink[1],
-      },
-    },
-    {
-      scope: ["support.type.primitive", "entity.name.type"],
-      settings: {
-        foreground: colors.yellow[1],
-      },
-    },
-    {
-      scope: "namespace",
-      settings: {
-        foreground: colors.green[1],
-      },
-    },
-    {
-      scope: ["keyword.operator", "keyword.operator.assignment.compound", "meta.var.expr.ts"],
-      settings: {
-        foreground: colors.cyan[1],
-      },
-    },
-    {
-      scope: "invalid.broken",
-      settings: {
-        fontStyle: "italic",
-        foreground: colors.orange[2],
-      },
-    },
-    {
-      scope: "invalid.deprecated",
-      settings: {
-        fontStyle: "italic",
-        foreground: colors.orange[2],
-      },
-    },
-    {
-      scope: "invalid.illegal",
-      settings: {
-        fontStyle: "italic",
-        foreground: colors.orange[2],
-      },
-    },
-    {
-      scope: "invalid.unimplemented",
-      settings: {
-        fontStyle: "italic",
-        foreground: colors.orange[2],
-      },
-    },
-    {
-      scope: "carriage-return",
-      settings: {
-        fontStyle: "italic underline",
-        background: colors.pink[1],
-        foreground: colors.canvas[0],
-        content: "^M",
-      },
-    },
-    {
-      scope: "message.error",
-      settings: {
-        foreground: colors.orange[2],
-      },
-    },
-    {
-      scope: "string variable",
-      settings: {
-        foreground: colors.green[1],
-      },
-    },
-    {
-      scope: ["source.regexp", "string.regexp"],
-      settings: {
-        foreground: colors.green[1],
-      },
+      scope: ["string", "source.regexp", "string.regexp", "entity.name", "markup.inline"],
+      settings: { foreground: colors.green[1] },
     },
     {
       scope: [
-        "string.regexp.character-class",
-        "string.regexp constant.character.escape",
-        "string.regexp source.ruby.embedded",
-        "string.regexp string.regexp.arbitrary-repitition",
+        "support.type",
+        "support.class",
+        "entity.name.type",
+        "entity.name.class",
+        "entity.name.section",
+        "entity.other.attribute-name.class",
+        "entity.other.inherited-class",
+        "constant.other.character-class.range",
+        "keyword.other.unit",
+        "markup.heading",
       ],
-      settings: {
-        foreground: colors.cyan[1],
-      },
+      settings: { foreground: colors.yellow[1] },
     },
     {
-      scope: "string.regexp constant.character.escape",
-      settings: {
-        foreground: colors.yellow[1],
-      },
+      scope: ["markup.italic"],
+      settings: { foreground: colors.pink[1], fontStyle: "italic" },
     },
     {
-      scope: ["support.constant"],
-      settings: {
-        foreground: colors.orange[1],
-      },
+      scope: ["markup.bold"],
+      settings: { foreground: colors.orange[1], fontStyle: "bold" },
     },
     {
-      scope: ["keyword.operator.quantifier.regexp", "constant.numeric", "number"],
-      settings: {
-        foreground: colors.orange[1],
-      },
+      scope: "invalid",
+      settings: { fontStyle: "bold", foreground: colors.orange[2] },
     },
-    {
-      scope: ["keyword.other.unit"],
-      settings: {
-        foreground: colors.magenta[1],
-      },
-    },
-    {
-      scope: ["constant.language.boolean", "constant.language"],
-      settings: {
-        foreground: colors.magenta[1],
-      },
-    },
-    {
-      scope: "meta.module-reference",
-      settings: {
-        foreground: colors.green[1],
-      },
-    },
-    {
-      scope: "punctuation.definition.list.begin.markdown",
-      settings: {
-        foreground: colors.pink[1],
-      },
-    },
-    {
-      scope: ["markup.heading", "markup.heading entity.name"],
-      settings: {
-        fontStyle: "bold",
-        foreground: colors.yellow[1],
-      },
-    },
-    {
-      scope: "markup.quote",
-      settings: {
-        foreground: colors.purple[1],
-      },
-    },
-    {
-      scope: "markup.italic",
-      settings: {
-        fontStyle: "italic",
-        foreground: colors.pink[1],
-      },
-    },
-    {
-      scope: "markup.bold",
-      settings: {
-        fontStyle: "bold",
-        foreground: colors.orange[1],
-      },
-    },
-    {
-      scope: "markup.raw",
-      settings: {
-        foreground: colors.green[1],
-      },
-    },
-    {
-      scope: ["markup.deleted", "meta.diff.header.from-file", "punctuation.definition.deleted"],
-      settings: {
-        background: colors.pink[0] + "30",
-        foreground: colors.pink[2],
-      },
-    },
-    {
-      scope: ["markup.inserted", "meta.diff.header.to-file", "punctuation.definition.inserted"],
-      settings: {
-        background: colors.green[0] + "30",
-        foreground: colors.green[2],
-      },
-    },
-    {
-      scope: ["markup.changed", "punctuation.definition.changed"],
-      settings: {
-        background: colors.yellow[0] + "30",
-        foreground: colors.yellow[2],
-      },
-    },
-    {
-      scope: ["markup.ignored", "markup.untracked"],
-      settings: {
-        foreground: colors.canvas[0],
-        background: colors.blue[1],
-      },
-    },
-    {
-      scope: "meta.diff.range",
-      settings: {
-        foreground: colors.purple[1],
-        fontStyle: "bold",
-      },
-    },
-    {
-      scope: "meta.diff.header",
-      settings: {
-        foreground: colors.blue[1],
-      },
-    },
-    {
-      scope: "meta.separator",
-      settings: {
-        fontStyle: "bold",
-        foreground: colors.yellow[2],
-      },
-    },
-    {
-      scope: "meta.output",
-      settings: {
-        foreground: colors.purple[1],
-      },
-    },
-    {
-      scope: [
-        "brackethighlighter.tag",
-        "brackethighlighter.curly",
-        "brackethighlighter.round",
-        "brackethighlighter.square",
-        "brackethighlighter.angle",
-        "brackethighlighter.quote",
-      ],
-      settings: {
-        foreground: colors.ink[3],
-      },
-    },
-    {
-      scope: "brackethighlighter.unmatched",
-      settings: {
-        foreground: colors.pink[2],
-      },
-    },
-    {
-      scope: [
-        "constant.other.reference.link",
-        "string.other.link",
-        "punctuation.definition.string.begin.markdown",
-        "punctuation.definition.string.end.markdown",
-      ],
-      settings: {
-        foreground: colors.green[1],
-      },
-    },
-    {
-      scope: ["markup.underline.link.markdown", "markup.underline.link.image.markdown"],
-      settings: {
-        foreground: colors.cyan[1],
-        fontStyle: "underline",
-      },
-    },
-    {
-      scope: ["type.identifier", "constant.other.character-class.regexp"],
-      settings: {
-        foreground: colors.yellow[1],
-      },
-    },
-
-    {
-      name: "JSON Key - Level 0",
-      scope: ["source.json meta.structure.dictionary.json support.type.property-name.json"],
-      settings: {
-        foreground: colors.magenta[1],
-      },
-    },
-    {
-      name: "JSON Key - Level 1",
-      scope: [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-      ],
-      settings: {
-        foreground: colors.pink[1],
-      },
-    },
-    {
-      name: "JSON Key - Level 2",
-      scope: [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-      ],
-      settings: {
-        foreground: colors.purple[1],
-      },
-    },
-    {
-      name: "JSON Key - Level 3",
-      scope: [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-      ],
-      settings: {
-        foreground: colors.blue[1],
-      },
-    },
-    {
-      name: "JSON Key - Level 4",
-      scope: [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-      ],
-      settings: {
-        foreground: colors.cyan[1],
-      },
-    },
+    // {
+    //   scope: "source.json meta.structure.dictionary.json support.type.property-name.json",
+    //   settings: {
+    //     foreground: colors.magenta[1],
+    //   },
+    // },
+    // {
+    //   scope:
+    //     "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+    //   settings: {
+    //     foreground: colors.pink[1],
+    //   },
+    // },
+    // {
+    //   scope:
+    //     "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+    //   settings: {
+    //     foreground: colors.purple[1],
+    //   },
+    // },
+    // {
+    //   scope:
+    //     "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+    //   settings: {
+    //     foreground: colors.blue[1],
+    //   },
+    // },
+    // {
+    //   scope:
+    //     "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+    //   settings: {
+    //     foreground: colors.cyan[1],
+    //   },
+    // },
   ],
 };

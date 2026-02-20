@@ -210,7 +210,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": "#78D0D0"
+            "color": "#8a80d8"
           },
           "boolean": {
             "color": "#D08DD9"
@@ -233,15 +233,15 @@
             "color": "#D08DD9"
           },
           "emphasis": {
-            "color": "#8a80d8",
+            "color": "#D06A97",
             "font_style": "italic"
           },
           "emphasis.strong": {
-            "color": "#D06A97",
+            "color": "#DB8380",
             "font_weight": 700
           },
           "enum": {
-            "color": "#DB8380"
+            "color": "#CE9F7D"
           },
           "function": {
             "color": "#85B0ED"
