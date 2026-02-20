@@ -289,7 +289,7 @@
             "color": "#688ABA"
           },
           "punctuation.bracket": {
-            "color": "#a196ee"
+            "color": "#9C5BA6"
           },
           "punctuation.delimiter": {
             "color": "#675fa8"
@@ -301,7 +301,7 @@
             "color": "#D08DD9"
           },
           "punctuation.special": {
-            "color": "#9C5BA6"
+            "color": "#498F8F"
           },
           "selector": {
             "color": "#CE9F7D"

@@ -550,11 +550,41 @@ export const vscodeThemeDark = {
     // "testing.coverCountBadgeBackground": "#00000000",
     // "testing.coverCountBadgeForeground": colors.purple[1],
   },
-  semanticTokenColors: {},
+  semanticHighlighting: true,
+  semanticTokenColors: {
+    boolean: colors.magenta[1],
+    character: colors.green[1],
+    const: colors.orange[1],
+    comment: colors.ink[1],
+    class: colors.yellow[1],
+    builtinType: colors.orange[1],
+    escapeSequence: colors.yellow[1],
+    enum: colors.yellow[1],
+    enumMember: colors.purple[1],
+    function: colors.blue[1],
+    keyword: colors.magenta[1],
+    decorator: colors.purple[1],
+    event: colors.blue[1],
+    interface: colors.yellow[1],
+    macro: colors.cyan[1],
+    method: colors.blue[1],
+    namespace: colors.purple[1],
+    number: colors.orange[1],
+    lifetime: colors.green[1],
+    parameter: colors.pink[1],
+    regexp: colors.green[1],
+    string: colors.green[1],
+    static: colors.pink[1],
+    property: colors.purple[1],
+    typeAlias: colors.yellow[1],
+    type: colors.yellow[1],
+    typeParameter: colors.orange[1],
+    variable: colors.pink[1],
+  },
   tokenColors: [
     {
       scope: ["comment", "punctuation.definition.comment", "string.comment"],
-      settings: { foreground: colors.ink[1] },
+      settings: { foreground: colors.ink[1], fontStyle: "italic" },
     },
     {
       scope: [
@@ -603,11 +633,10 @@ export const vscodeThemeDark = {
     },
     {
       scope: ["punctuation.definition.string", "punctuation.definition.raw"],
-      settings: { foreground: colors.cyan[0] },
+      settings: { foreground: colors.green[0] },
     },
     {
       scope: [
-        "meta.embedded",
         "punctuation.definition.heading",
         "punctuation.definition.template-expression",
         "punctuation.definition.interpolation",
@@ -643,6 +672,7 @@ export const vscodeThemeDark = {
     },
     {
       scope: [
+        "variable.language",
         "keyword.operator",
         "keyword.operator.assignment",
         "keyword.operator.comparison",
@@ -680,7 +710,7 @@ export const vscodeThemeDark = {
         "constant",
         "support.constant",
         "support.variable",
-        "variable.language",
+        "support.type.primitive",
         "entity.other.attribute-name.pseudo-class",
       ],
       settings: { foreground: colors.orange[1] },
