@@ -550,40 +550,7 @@ export const vscodeThemeDark = {
     // "testing.coverCountBadgeBackground": "#00000000",
     // "testing.coverCountBadgeForeground": colors.purple[1],
   },
-  semanticTokenColors: {
-    // "enumMember": {
-    //   foreground: colors.purple[1],
-    // },
-    // "selfKeyword": {
-    //   foreground: colors.cyan[1],
-    // },
-    // "boolean": {
-    //   foreground: colors.magenta[1],
-    // },
-    // "number": {
-    //   foreground: colors.orange[1],
-    // },
-    // "variable.defaultLibrary": {
-    //   foreground: colors.orange[1],
-    // },
-    // "tomlArrayKey": {
-    //   foreground: colors.magenta[1],
-    // },
-    // "tomlTableKey": {
-    //   foreground: colors.magenta[1],
-    // },
-    // "heading": {
-    //   foreground: colors.yellow[1],
-    // },
-    // "text.emph": {
-    //   foreground: colors.purple[1],
-    //   fontStyle: "italic",
-    // },
-    // "text.strong": {
-    //   foreground: colors.pink[1],
-    //   fontStyle: "bold",
-    // },
-  },
+  semanticTokenColors: {},
   tokenColors: [
     {
       scope: ["comment", "punctuation.definition.comment", "string.comment"],
@@ -595,7 +562,6 @@ export const vscodeThemeDark = {
       scope: [
         "delimiter.bracket",
         "delimiter",
-        "invalid.illegal.character-not-allowed-here.html",
         "keyword.operator.rest",
         "keyword.operator.spread",
         "keyword.operator.type.annotation",
@@ -611,8 +577,6 @@ export const vscodeThemeDark = {
         "storage.type.function.arrow",
         "meta.objectliteral.ts",
         "punctuation",
-        "punctuation.definition.string.begin.html.vue",
-        "punctuation.definition.string.end.html.vue",
       ],
       settings: {
         foreground: colors.purple[0],
@@ -980,6 +944,50 @@ export const vscodeThemeDark = {
       scope: ["type.identifier", "constant.other.character-class.regexp"],
       settings: {
         foreground: colors.yellow[1],
+      },
+    },
+
+    {
+      name: "JSON Key - Level 0",
+      scope: ["source.json meta.structure.dictionary.json support.type.property-name.json"],
+      settings: {
+        foreground: colors.magenta[1],
+      },
+    },
+    {
+      name: "JSON Key - Level 1",
+      scope: [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      ],
+      settings: {
+        foreground: colors.pink[1],
+      },
+    },
+    {
+      name: "JSON Key - Level 2",
+      scope: [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      ],
+      settings: {
+        foreground: colors.purple[1],
+      },
+    },
+    {
+      name: "JSON Key - Level 3",
+      scope: [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      ],
+      settings: {
+        foreground: colors.blue[1],
+      },
+    },
+    {
+      name: "JSON Key - Level 4",
+      scope: [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+      ],
+      settings: {
+        foreground: colors.cyan[1],
       },
     },
   ],
