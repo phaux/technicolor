@@ -4,6 +4,17 @@ const darkTheme = {
   name: "Technicolor Dark",
   appearance: "dark",
   style: {
+    "accents": [
+      colors.magenta[1],
+      colors.purple[1],
+      colors.blue[1],
+      colors.cyan[1],
+      colors.green[1],
+      colors.yellow[1],
+      colors.orange[1],
+      colors.pink[1],
+    ],
+
     "border": colors.canvas[4],
     "border.variant": colors.canvas[3],
     "border.focused": colors.purple[0],
@@ -14,6 +25,7 @@ const darkTheme = {
     "elevated_surface.background": colors.canvas[1],
     "surface.background": colors.canvas[1],
     "background": colors.canvas[2],
+    "background.appearance": "opaque",
 
     "element.background": colors.glow[0],
     "element.hover": colors.glow[1],
@@ -23,7 +35,6 @@ const darkTheme = {
     "element.disabled": "#00000000",
 
     "drop_target.background": colors.cyan[0] + "2A",
-    "drop_target.border": colors.canvas[3],
 
     "ghost_element.background": "#00000000",
     "ghost_element.hover": colors.glow[1],
@@ -61,6 +72,7 @@ const darkTheme = {
     "panel.indent_guide_hover": colors.glow[2],
     "panel.indent_guide_active": colors.glow[4],
     "pane.focused_border": colors.purple[0],
+    "pane_group.border": colors.canvas[3],
 
     "scrollbar.thumb.background": colors.glow[0],
     "scrollbar.thumb.hover_background": colors.glow[1],
@@ -97,6 +109,7 @@ const darkTheme = {
     "terminal.foreground": colors.ink[2],
     "terminal.bright_foreground": colors.ink[3],
     "terminal.dim_foreground": colors.ink[1],
+    "terminal.ansi.background": colors.canvas[0],
     "terminal.ansi.black": colors.canvas[1],
     "terminal.ansi.bright_black": colors.canvas[2],
     "terminal.ansi.dim_black": colors.canvas[0],
@@ -183,7 +196,11 @@ const darkTheme = {
         background: colors.purple[1],
         selection: colors.purple[2] + "2A",
       },
-      { cursor: colors.pink[1], background: colors.pink[1], selection: colors.pink[2] + "2A" },
+      {
+        cursor: colors.pink[1],
+        background: colors.pink[1],
+        selection: colors.pink[2] + "2A",
+      },
       {
         cursor: colors.yellow[1],
         background: colors.yellow[1],
@@ -194,7 +211,11 @@ const darkTheme = {
         background: colors.magenta[1],
         selection: colors.magenta[2] + "2A",
       },
-      { cursor: colors.cyan[1], background: colors.cyan[1], selection: colors.cyan[2] + "2A" },
+      {
+        cursor: colors.cyan[1],
+        background: colors.cyan[1],
+        selection: colors.cyan[2] + "2A",
+      },
       {
         cursor: colors.orange[1],
         background: colors.orange[1],
@@ -205,12 +226,16 @@ const darkTheme = {
         background: colors.green[1],
         selection: colors.green[2] + "2A",
       },
-      { cursor: colors.blue[1], background: colors.blue[1], selection: colors.blue[2] + "2A" },
+      {
+        cursor: colors.blue[1],
+        background: colors.blue[1],
+        selection: colors.blue[2] + "2A",
+      },
     ],
 
     "syntax": {
       "attribute": { color: colors.purple[1] },
-      "boolean": { color: colors.magenta[1] },
+      "boolean": { color: colors.orange[1] },
       "comment": { color: colors.ink[1], font_style: "italic" },
       "comment.doc": { color: colors.ink[1], font_style: "italic" },
       "constant": { color: colors.orange[1] },
@@ -243,7 +268,7 @@ const darkTheme = {
       "string": { color: colors.green[1] },
       "string.escape": { color: colors.yellow[1], font_weight: 700 },
       "string.regex": { color: colors.cyan[1] },
-      "string.special": { color: colors.pink[2] },
+      "string.special": { color: colors.pink[1] },
       "string.special.symbol": { color: colors.yellow[1], font_weight: 700 },
       "tag": { color: colors.blue[1] },
       "text.literal": { color: colors.green[1] },

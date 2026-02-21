@@ -8,6 +8,16 @@
       "name": "Technicolor Dark",
       "appearance": "dark",
       "style": {
+        "accents": [
+          "#D08DD9",
+          "#8a80d8",
+          "#85B0ED",
+          "#78D0D0",
+          "#55BD97",
+          "#CE9F7D",
+          "#DB8380",
+          "#D06A97"
+        ],
         "border": "#3C3C4C",
         "border.variant": "#2E2E3E",
         "border.focused": "#675fa8",
@@ -17,6 +27,7 @@
         "elevated_surface.background": "#20202A",
         "surface.background": "#20202A",
         "background": "#262636",
+        "background.appearance": "opaque",
         "element.background": "#CECCFF0D",
         "element.hover": "#CECCFF16",
         "element.active": "#B9B3FF22",
@@ -24,7 +35,6 @@
         "element.selection_background": "#A099FF2A",
         "element.disabled": "#00000000",
         "drop_target.background": "#498F8F2A",
-        "drop_target.border": "#2E2E3E",
         "ghost_element.background": "#00000000",
         "ghost_element.hover": "#CECCFF16",
         "ghost_element.active": "#B9B3FF22",
@@ -57,6 +67,7 @@
         "panel.indent_guide_hover": "#B9B3FF22",
         "panel.indent_guide_active": "#B9B3FF36",
         "pane.focused_border": "#675fa8",
+        "pane_group.border": "#2E2E3E",
         "scrollbar.thumb.background": "#CECCFF0D",
         "scrollbar.thumb.hover_background": "#CECCFF16",
         "scrollbar.thumb.active_background": "#B9B3FF22",
@@ -89,6 +100,7 @@
         "terminal.foreground": "#a6a6bc",
         "terminal.bright_foreground": "#c6c6d8",
         "terminal.dim_foreground": "#7e7ea0",
+        "terminal.ansi.background": "#1A1A20",
         "terminal.ansi.black": "#20202A",
         "terminal.ansi.bright_black": "#262636",
         "terminal.ansi.dim_black": "#1A1A20",
@@ -213,7 +225,7 @@
             "color": "#8a80d8"
           },
           "boolean": {
-            "color": "#D08DD9"
+            "color": "#DB8380"
           },
           "comment": {
             "color": "#7e7ea0",
@@ -320,7 +332,7 @@
             "color": "#78D0D0"
           },
           "string.special": {
-            "color": "#E08BB1"
+            "color": "#D06A97"
           },
           "string.special.symbol": {
             "color": "#CE9F7D",
