@@ -1,7 +1,7 @@
 {
   "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
   "name": "Technicolor",
-  "description": "Technicolor theme",
+  "description": "Dark and colorful theme",
   "author": "Phaux",
   "themes": [
     {
@@ -116,10 +116,10 @@
         "terminal.ansi.blue": "#76a2db",
         "terminal.ansi.bright_blue": "#9dc1f1",
         "terminal.ansi.dim_blue": "#4d79b3",
-        "terminal.ansi.magenta": "#c86edc",
+        "terminal.ansi.magenta": "#c770db",
         "terminal.ansi.bright_magenta": "#dfa1e8",
         "terminal.ansi.dim_magenta": "#9b5bab",
-        "terminal.ansi.cyan": "#6ac9dc",
+        "terminal.ansi.cyan": "#68c8dc",
         "terminal.ansi.bright_cyan": "#9fddea",
         "terminal.ansi.dim_cyan": "#41909f",
         "terminal.ansi.white": "#a6a6bc",
@@ -130,13 +130,13 @@
         "version_control.modified": "#8683d8",
         "version_control.word_added": "#358b6c40",
         "version_control.word_deleted": "#9a436e40",
-        "version_control.renamed": "#6ac9dc",
-        "version_control.conflict": "#c86edc",
+        "version_control.renamed": "#68c8dc",
+        "version_control.conflict": "#c770db",
         "version_control.ignored": "#686878",
         "version_control.deleted": "#c96493",
         "version_control.conflict_marker.ours": "#76a2db",
-        "version_control.conflict_marker.theirs": "#c86edc",
-        "conflict": "#c86edc",
+        "version_control.conflict_marker.theirs": "#c770db",
+        "conflict": "#c770db",
         "conflict.background": "#9b5bab20",
         "conflict.border": "#9b5bab",
         "created": "#57bc97",
@@ -166,7 +166,7 @@
         "predictive": "#6560a9",
         "predictive.background": "#CECCFF0D",
         "predictive.border": "#00000000",
-        "renamed": "#6ac9dc",
+        "renamed": "#68c8dc",
         "renamed.background": "#41909f20",
         "renamed.border": "#41909f",
         "success": "#57bc97",
@@ -195,13 +195,13 @@
             "selection": "#ab775960"
           },
           {
-            "cursor": "#c86edc",
-            "background": "#c86edc",
+            "cursor": "#c770db",
+            "background": "#c770db",
             "selection": "#9b5bab60"
           },
           {
-            "cursor": "#6ac9dc",
-            "background": "#6ac9dc",
+            "cursor": "#68c8dc",
+            "background": "#68c8dc",
             "selection": "#41909f60"
           },
           {
@@ -242,7 +242,7 @@
             "color": "#ce9d81"
           },
           "embedded": {
-            "color": "#c86edc"
+            "color": "#c770db"
           },
           "emphasis": {
             "color": "#c96493",
@@ -262,7 +262,7 @@
             "color": "#7e7ea0"
           },
           "keyword": {
-            "color": "#c86edc"
+            "color": "#c770db"
           },
           "label": {
             "color": "#57bc97"
@@ -281,14 +281,14 @@
             "color": "#df868c"
           },
           "operator": {
-            "color": "#6ac9dc"
+            "color": "#68c8dc"
           },
           "predictive": {
             "color": "#41909f",
             "font_style": "italic"
           },
           "preproc": {
-            "color": "#c86edc",
+            "color": "#c770db",
             "font_weight": 700
           },
           "primary": {
@@ -307,10 +307,10 @@
             "color": "#6560a9"
           },
           "punctuation.list_marker": {
-            "color": "#6ac9dc"
+            "color": "#68c8dc"
           },
           "punctuation.markup": {
-            "color": "#c86edc"
+            "color": "#c770db"
           },
           "punctuation.special": {
             "color": "#9a436e"
@@ -319,7 +319,7 @@
             "color": "#ce9d81"
           },
           "selector.pseudo": {
-            "color": "#6ac9dc"
+            "color": "#68c8dc"
           },
           "string": {
             "color": "#57bc97"
@@ -329,7 +329,7 @@
             "font_weight": 700
           },
           "string.regex": {
-            "color": "#6ac9dc"
+            "color": "#68c8dc"
           },
           "string.special": {
             "color": "#c96493"
@@ -355,7 +355,7 @@
             "color": "#c96493"
           },
           "variable.special": {
-            "color": "#6ac9dc"
+            "color": "#68c8dc"
           },
           "variant": {
             "color": "#8683d8"

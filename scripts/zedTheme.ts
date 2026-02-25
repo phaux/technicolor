@@ -1,6 +1,7 @@
+import packageJSON from "../vscode/package.json" with { type: "json" };
 import { colors } from "./colors.ts";
 
-const darkTheme = {
+export const zedThemeDark = {
   name: "Technicolor Dark",
   appearance: "dark",
   style: {
@@ -284,7 +285,7 @@ const darkTheme = {
 export const zedTheme = {
   $schema: "https://zed.dev/schema/themes/v0.2.0.json",
   name: "Technicolor",
-  description: "Technicolor theme",
+  description: packageJSON.description,
   author: "Phaux",
-  themes: [darkTheme],
+  themes: [zedThemeDark],
 };

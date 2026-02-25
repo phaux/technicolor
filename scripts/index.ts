@@ -1,6 +1,6 @@
 import * as fs from "node:fs/promises";
-import { zedTheme } from "./theme-zed.ts";
-import { vscodeThemeDark } from "./theme-vscode.ts";
+import { vscodeThemeDark } from "./vscodeThemeDark.ts";
+import { zedTheme } from "./zedTheme.ts";
 
 await fs.writeFile(
   import.meta.dirname + "/../vscode/themes/technicolor-dark.json",

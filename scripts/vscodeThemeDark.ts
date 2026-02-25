@@ -1,9 +1,8 @@
 import { colors } from "./colors.ts";
-import packageJson from "./package.json" with { type: "json" };
 
 export const vscodeThemeDark = {
   $schema: "vscode://schemas/color-theme",
-  name: `${packageJson.name} Dark`,
+  name: "Technicolor Dark",
   colors: {
     "focusBorder": colors.purple[1],
     "foreground": colors.ink[2],
@@ -191,9 +190,10 @@ export const vscodeThemeDark = {
     "gitDecoration.ignoredResourceForeground": colors.ink[0],
     "gitDecoration.modifiedResourceForeground": colors.purple[1],
     "gitDecoration.stageDeletedResourceForeground": colors.pink[1],
-    "gitDecoration.stageModifiedResourceForeground": colors.yellow[1],
+    "gitDecoration.stageModifiedResourceForeground": colors.purple[1],
     "gitDecoration.submoduleResourceForeground": colors.magenta[1],
     "gitDecoration.untrackedResourceForeground": colors.green[1],
+    "gitDecoration.renamedResourceForeground": colors.blue[1],
     "scmGraph.historyItemRefColor": colors.blue[1],
     "scmGraph.historyItemBaseRefColor": colors.pink[1],
     "scmGraph.historyItemRemoteRefColor": colors.magenta[1],
