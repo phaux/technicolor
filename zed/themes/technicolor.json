@@ -9,7 +9,7 @@
       "appearance": "dark",
       "style": {
         "accents": [
-          "#a15aaa",
+          "#9f56a8",
           "#6b60a9",
           "#4d75b3",
           "#418c9f",
@@ -95,7 +95,7 @@
         "editor.active_wrap_guide": "#B9B3FF36",
         "editor.document_highlight.bracket_background": "#aaa4ef60",
         "editor.document_highlight.read_background": "#4d75b330",
-        "editor.document_highlight.write_background": "#a15aaa30",
+        "editor.document_highlight.write_background": "#9f56a830",
         "terminal.background": "#1A1A20",
         "terminal.foreground": "#a6a6bc",
         "terminal.bright_foreground": "#c6c6d8",
@@ -116,9 +116,9 @@
         "terminal.ansi.blue": "#769edb",
         "terminal.ansi.bright_blue": "#9dbef1",
         "terminal.ansi.dim_blue": "#4d75b3",
-        "terminal.ansi.magenta": "#c474d0",
+        "terminal.ansi.magenta": "#c475d0",
         "terminal.ansi.bright_magenta": "#dda1e8",
-        "terminal.ansi.dim_magenta": "#a15aaa",
+        "terminal.ansi.dim_magenta": "#9f56a8",
         "terminal.ansi.cyan": "#6ec7dd",
         "terminal.ansi.bright_cyan": "#9fdbea",
         "terminal.ansi.dim_cyan": "#418c9f",
@@ -131,18 +131,18 @@
         "version_control.word_added": "#358d6e40",
         "version_control.word_deleted": "#98436e40",
         "version_control.renamed": "#6ec7dd",
-        "version_control.conflict": "#c474d0",
+        "version_control.conflict": "#c475d0",
         "version_control.ignored": "#686878",
-        "version_control.deleted": "#c96493",
+        "version_control.deleted": "#c46390",
         "version_control.conflict_marker.ours": "#769edb",
-        "version_control.conflict_marker.theirs": "#c474d0",
-        "conflict": "#c474d0",
-        "conflict.background": "#a15aaa20",
-        "conflict.border": "#a15aaa",
+        "version_control.conflict_marker.theirs": "#c475d0",
+        "conflict": "#c475d0",
+        "conflict.background": "#9f56a820",
+        "conflict.border": "#9f56a8",
         "created": "#53b996",
         "created.background": "#358d6e20",
         "created.border": "#358d6e",
-        "deleted": "#c96493",
+        "deleted": "#c46390",
         "deleted.background": "#98436e20",
         "deleted.border": "#98436e",
         "error": "#df868c",
@@ -185,8 +185,8 @@
             "selection": "#6b60a960"
           },
           {
-            "cursor": "#c96493",
-            "background": "#c96493",
+            "cursor": "#c46390",
+            "background": "#c46390",
             "selection": "#98436e60"
           },
           {
@@ -195,9 +195,9 @@
             "selection": "#ab775960"
           },
           {
-            "cursor": "#c474d0",
-            "background": "#c474d0",
-            "selection": "#a15aaa60"
+            "cursor": "#c475d0",
+            "background": "#c475d0",
+            "selection": "#9f56a860"
           },
           {
             "cursor": "#6ec7dd",
@@ -242,10 +242,10 @@
             "color": "#ce9d81"
           },
           "embedded": {
-            "color": "#c474d0"
+            "color": "#c475d0"
           },
           "emphasis": {
-            "color": "#c96493",
+            "color": "#c46390",
             "font_style": "italic"
           },
           "emphasis.strong": {
@@ -262,7 +262,7 @@
             "color": "#7e7ea0"
           },
           "keyword": {
-            "color": "#c474d0"
+            "color": "#c475d0"
           },
           "label": {
             "color": "#53b996"
@@ -288,7 +288,7 @@
             "font_style": "italic"
           },
           "preproc": {
-            "color": "#c474d0",
+            "color": "#c475d0",
             "font_weight": 700
           },
           "primary": {
@@ -301,7 +301,7 @@
             "color": "#4d75b3"
           },
           "punctuation.bracket": {
-            "color": "#a15aaa"
+            "color": "#9f56a8"
           },
           "punctuation.delimiter": {
             "color": "#6b60a9"
@@ -310,7 +310,7 @@
             "color": "#6ec7dd"
           },
           "punctuation.markup": {
-            "color": "#c474d0"
+            "color": "#c475d0"
           },
           "punctuation.special": {
             "color": "#98436e"
@@ -332,7 +332,7 @@
             "color": "#6ec7dd"
           },
           "string.special": {
-            "color": "#c96493"
+            "color": "#c46390"
           },
           "string.special.symbol": {
             "color": "#ce9d81",
@@ -352,7 +352,7 @@
             "color": "#ce9d81"
           },
           "variable": {
-            "color": "#c96493"
+            "color": "#c46390"
           },
           "variable.special": {
             "color": "#6ec7dd"

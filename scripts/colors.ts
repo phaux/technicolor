@@ -6,8 +6,8 @@ export const colors = {
   cyan: ["#418c9f", "#6ec7dd", "#9fdbea"],
   blue: ["#4d75b3", "#769edb", "#9dbef1"],
   purple: ["#6b60a9", "#8d83d8", "#aaa4ef"],
-  magenta: ["#a15aaa", "#c474d0", "#dda1e8"],
-  pink: ["#98436e", "#c96493", "#d590ae"],
+  magenta: ["#9f56a8", "#c475d0", "#dda1e8"],
+  pink: ["#98436e", "#c46390", "#d590ae"],
   orange: ["#b36163", "#df868c", "#eaa4ab"],
   yellow: ["#ab7759", "#ce9d81", "#dabaa9"],
 } as const;
