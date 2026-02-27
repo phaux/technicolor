@@ -1,6 +1,7 @@
 {
   "name": "technicolor-theme",
   "displayName": "Technicolor Theme",
+  "icon": "./technicolor.png",
   "description": "Dark and colorful theme",
   "version": "0.0.1",
   "engines": {
