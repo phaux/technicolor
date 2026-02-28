@@ -1,5 +1,7 @@
 # Technicolor Theme
 
+![Icon](./vscode/technicolor.png)
+
 ## VSCode
 
 [![VSCode screenshot](./vscode/screenshot.png)](./vscode/README.md)
