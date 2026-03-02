@@ -4,6 +4,17 @@
   "icon": "./technicolor.png",
   "description": "Dark and colorful theme",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phaux/technicolor.git",
+    "directory": "vscode"
+  },
+  "files": [
+    "themes/technicolor-dark.json",
+    "technicolor.png",
+    "screenshot.png",
+    "LICENSE"
+  ],
   "engines": {
     "vscode": "^1.109.0"
   },
