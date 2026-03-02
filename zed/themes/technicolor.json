@@ -116,7 +116,7 @@
         "terminal.ansi.blue": "#769edb",
         "terminal.ansi.bright_blue": "#9dbef1",
         "terminal.ansi.dim_blue": "#4d75b3",
-        "terminal.ansi.magenta": "#c179d2",
+        "terminal.ansi.magenta": "#c778d8",
         "terminal.ansi.bright_magenta": "#d9a5e9",
         "terminal.ansi.dim_magenta": "#9b57a8",
         "terminal.ansi.cyan": "#6ec7dd",
@@ -131,12 +131,12 @@
         "version_control.word_added": "#358d6e40",
         "version_control.word_deleted": "#98436e40",
         "version_control.renamed": "#6ec7dd",
-        "version_control.conflict": "#c179d2",
+        "version_control.conflict": "#c778d8",
         "version_control.ignored": "#686878",
         "version_control.deleted": "#c46390",
         "version_control.conflict_marker.ours": "#769edb",
-        "version_control.conflict_marker.theirs": "#c179d2",
-        "conflict": "#c179d2",
+        "version_control.conflict_marker.theirs": "#c778d8",
+        "conflict": "#c778d8",
         "conflict.background": "#9b57a820",
         "conflict.border": "#9b57a8",
         "created": "#53b996",
@@ -195,8 +195,8 @@
             "selection": "#ab775960"
           },
           {
-            "cursor": "#c179d2",
-            "background": "#c179d2",
+            "cursor": "#c778d8",
+            "background": "#c778d8",
             "selection": "#9b57a860"
           },
           {
@@ -242,7 +242,7 @@
             "color": "#ce9d81"
           },
           "embedded": {
-            "color": "#c179d2"
+            "color": "#c778d8"
           },
           "emphasis": {
             "color": "#c46390",
@@ -262,7 +262,7 @@
             "color": "#7e7ea0"
           },
           "keyword": {
-            "color": "#c179d2"
+            "color": "#c778d8"
           },
           "label": {
             "color": "#53b996"
@@ -288,7 +288,7 @@
             "font_style": "italic"
           },
           "preproc": {
-            "color": "#c179d2",
+            "color": "#c778d8",
             "font_weight": 700
           },
           "primary": {
@@ -310,7 +310,7 @@
             "color": "#6ec7dd"
           },
           "punctuation.markup": {
-            "color": "#c179d2"
+            "color": "#c778d8"
           },
           "punctuation.special": {
             "color": "#98436e"
