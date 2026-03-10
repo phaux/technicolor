@@ -568,7 +568,8 @@ export const vscodeThemeDark = {
   semanticTokenColors: {
     builtinAttribute: colors.purple[1],
     generic: colors.orange[1],
-    tomlTableKey: colors.pink[1],
+    tomlTableKey: colors.purple[1],
+    tomlArrayKey: colors.purple[1],
     deriveHelper: colors.cyan[1],
   },
   tokenColors: [
@@ -678,6 +679,7 @@ export const vscodeThemeDark = {
         "keyword.operator.quantifier",
         "keyword.type.go",
         "source.go keyword", // In go every keyword is a separate scope
+        "support.type.property-name.table.toml",
         "punctuation.definition.group",
         "punctuation.definition.begin.frontmatter",
         "punctuation.definition.end.frontmatter",
@@ -801,6 +803,7 @@ export const vscodeThemeDark = {
         "entity.name.module",
         "entity.other.attribute-name.class",
         "entity.other.inherited-class",
+        "support.type.property-name.array.toml",
         "constant.other.character-class.range",
         "keyword.other.unit",
         "markup.heading",

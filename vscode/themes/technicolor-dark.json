@@ -566,7 +566,8 @@
   "semanticTokenColors": {
     "builtinAttribute": "#9284db",
     "generic": "#df8692",
-    "tomlTableKey": "#c46494",
+    "tomlTableKey": "#9284db",
+    "tomlArrayKey": "#9284db",
     "deriveHelper": "#6ec5dd"
   },
   "tokenColors": [
@@ -697,6 +698,7 @@
         "keyword.operator.quantifier",
         "keyword.type.go",
         "source.go keyword",
+        "support.type.property-name.table.toml",
         "punctuation.definition.group",
         "punctuation.definition.begin.frontmatter",
         "punctuation.definition.end.frontmatter",
@@ -833,6 +835,7 @@
         "entity.name.module",
         "entity.other.attribute-name.class",
         "entity.other.inherited-class",
+        "support.type.property-name.array.toml",
         "constant.other.character-class.range",
         "keyword.other.unit",
         "markup.heading"
