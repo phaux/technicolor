@@ -195,42 +195,42 @@ export const zedThemeDark = {
       {
         cursor: colors.purple[1],
         background: colors.purple[1],
-        selection: colors.purple[0] + "60",
+        selection: colors.purple[0] + "40",
       },
       {
         cursor: colors.pink[1],
         background: colors.pink[1],
-        selection: colors.pink[0] + "60",
+        selection: colors.pink[0] + "40",
       },
       {
         cursor: colors.yellow[1],
         background: colors.yellow[1],
-        selection: colors.yellow[0] + "60",
+        selection: colors.yellow[0] + "40",
       },
       {
         cursor: colors.magenta[1],
         background: colors.magenta[1],
-        selection: colors.magenta[0] + "60",
+        selection: colors.magenta[0] + "40",
       },
       {
         cursor: colors.cyan[1],
         background: colors.cyan[1],
-        selection: colors.cyan[0] + "60",
+        selection: colors.cyan[0] + "40",
       },
       {
         cursor: colors.orange[1],
         background: colors.orange[1],
-        selection: colors.orange[0] + "60",
+        selection: colors.orange[0] + "40",
       },
       {
         cursor: colors.green[1],
         background: colors.green[1],
-        selection: colors.green[0] + "60",
+        selection: colors.green[0] + "40",
       },
       {
         cursor: colors.blue[1],
         background: colors.blue[1],
-        selection: colors.blue[0] + "60",
+        selection: colors.blue[0] + "40",
       },
     ],
 

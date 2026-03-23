@@ -182,42 +182,42 @@
           {
             "cursor": "#9284db",
             "background": "#9284db",
-            "selection": "#6f60a960"
+            "selection": "#6f60a940"
           },
           {
             "cursor": "#c46494",
             "background": "#c46494",
-            "selection": "#98436e60"
+            "selection": "#98436e40"
           },
           {
             "cursor": "#ce9c82",
             "background": "#ce9c82",
-            "selection": "#ab745960"
+            "selection": "#ab745940"
           },
           {
             "cursor": "#c778d8",
             "background": "#c778d8",
-            "selection": "#9b57a860"
+            "selection": "#9b57a840"
           },
           {
             "cursor": "#6ec5dd",
             "background": "#6ec5dd",
-            "selection": "#418a9f60"
+            "selection": "#418a9f40"
           },
           {
             "cursor": "#df8692",
             "background": "#df8692",
-            "selection": "#b3616c60"
+            "selection": "#b3616c40"
           },
           {
             "cursor": "#53b996",
             "background": "#53b996",
-            "selection": "#358d6e60"
+            "selection": "#358d6e40"
           },
           {
             "cursor": "#769bdb",
             "background": "#769bdb",
-            "selection": "#4d72b360"
+            "selection": "#4d72b340"
           }
         ],
         "syntax": {
