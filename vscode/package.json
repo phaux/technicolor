@@ -2,7 +2,7 @@
   "name": "technicolor-theme",
   "displayName": "Technicolor Theme",
   "icon": "./technicolor.png",
-  "description": "Dark and colorful theme",
+  "description": "Colorful pastel theme",
   "version": "0.0.1",
   "repository": {
     "type": "git",
@@ -11,6 +11,7 @@
   },
   "files": [
     "themes/technicolor-dark.json",
+    "themes/technicolor-light.json",
     "technicolor.png",
     "screenshot.png",
     "LICENSE"
@@ -27,6 +28,11 @@
         "label": "Technicolor Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/technicolor-dark.json"
+      },
+      {
+        "label": "Technicolor Light",
+        "uiTheme": "vs",
+        "path": "./themes/technicolor-light.json"
       }
     ]
   }

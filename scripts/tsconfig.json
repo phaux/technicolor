@@ -3,10 +3,12 @@
     "allowJs": true,
     "checkJs": true,
     "allowImportingTsExtensions": true,
+    "erasableSyntaxOnly": true,
     "module": "nodenext",
     "noEmit": true,
     "target": "esnext",
     "types": ["node"],
     "strict": true,
-  },
+    "verbatimModuleSyntax": true
+  }
 }

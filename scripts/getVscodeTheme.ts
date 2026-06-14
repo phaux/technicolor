@@ -1,8 +1,8 @@
-import { colors } from "./colors.ts";
+import type { Colors } from "./colors.ts";
 
-export const vscodeThemeDark = {
+export const getVscodeTheme = (name: string, colors: Colors) => ({
   $schema: "vscode://schemas/color-theme",
-  name: "Technicolor Dark",
+  name: `Technicolor ${name}`,
   colors: {
     "focusBorder": colors.purple[1],
     "foreground": colors.ink[2],
@@ -127,7 +127,7 @@ export const vscodeThemeDark = {
     "editorMarkerNavigationError.background": colors.orange[1],
     "editorMarkerNavigationInfo.background": colors.blue[1],
     "editorMarkerNavigationWarning.background": colors.yellow[1],
-    "editorOverviewRuler.background": "#00000000",
+    "editorOverviewRuler.background": colors.canvas[0] + "A0",
     "editorOverviewRuler.border": "#00000000",
     "editorOverviewRuler.addedForeground": colors.green[1] + "A0",
     "editorOverviewRuler.modifiedForeground": colors.purple[1] + "A0",
@@ -259,7 +259,7 @@ export const vscodeThemeDark = {
     "merge.currentHeaderBackground": colors.cyan[1] + "60",
     "merge.incomingContentBackground": colors.magenta[1] + "30",
     "merge.incomingHeaderBackground": colors.magenta[1] + "60",
-    "minimap.background": "#00000000",
+    "minimap.background": colors.canvas[0] + "A0",
     "minimap.chatEditHighlight": colors.magenta[0] + "80",
     "minimap.findMatchHighlight": colors.cyan[0] + "80",
     "minimap.selectionHighlight": colors.purple[0] + "80",
@@ -571,6 +571,7 @@ export const vscodeThemeDark = {
     tomlTableKey: colors.purple[1],
     tomlArrayKey: colors.purple[1],
     deriveHelper: colors.cyan[1],
+    property: colors.purple[1],
   },
   tokenColors: [
     {
@@ -679,19 +680,27 @@ export const vscodeThemeDark = {
         "keyword.operator.quantifier",
         "keyword.type.go",
         "source.go keyword", // In go every keyword is a separate scope
-        "support.type.property-name.table.toml",
-        "punctuation.definition.group",
-        "punctuation.definition.begin.frontmatter",
-        "punctuation.definition.end.frontmatter",
         "storage.type",
         "storage.modifier",
-        "fenced_code.block.language",
       ],
       settings: { foreground: colors.magenta[1] },
     },
     {
       scope: [
-        "variable.language",
+        "support.type.property-name.table.toml",
+        "punctuation.definition.group",
+        "punctuation.definition.begin.frontmatter",
+        "punctuation.definition.end.frontmatter",
+        "fenced_code.block.language",
+      ],
+      settings: { foreground: colors.magenta[1] },
+    },
+    {
+      scope: ["variable.language"],
+      settings: { foreground: colors.cyan[1] },
+    },
+    {
+      scope: [
         // Can't use "keyword.operator" because sometimes it will override operators which should have punctuation color
         "keyword.operator.assignment",
         "keyword.operator.comparison",
@@ -740,6 +749,8 @@ export const vscodeThemeDark = {
     {
       scope: [
         "variable",
+        "variable.parameter",
+        "variable.other.constant",
         "entity.name.variable",
         "entity.other.attribute-name.id",
         "entity.other.attribute-name.pseudo-element",
@@ -752,8 +763,7 @@ export const vscodeThemeDark = {
         "constant.language",
         "constant.character",
         "constant.other",
-        "support.constant",
-        "support.variable",
+        "support.type.primitive",
         "support.type.builtin",
         "variable.other.enummember",
         "entity.name.type.parameter",
@@ -765,6 +775,7 @@ export const vscodeThemeDark = {
       scope: [
         "meta.object-literal.key",
         "meta.property-name",
+        "entity.other",
         "entity.other.attribute-name",
         "entity.name.namespace",
         "entity.name.label",
@@ -794,8 +805,9 @@ export const vscodeThemeDark = {
     },
     {
       scope: [
-        "support.type.primitive",
         "support.class",
+        "support.constant",
+        "support.variable",
         "keyword.type",
         "entity.name.type",
         "entity.name.class",
@@ -857,8 +869,8 @@ export const vscodeThemeDark = {
       scope:
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       settings: {
-        foreground: colors.pink[1],
+        foreground: colors.green[1],
       },
     },
   ],
-};
+});

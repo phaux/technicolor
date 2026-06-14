@@ -1,9 +1,9 @@
 import packageJSON from "../vscode/package.json" with { type: "json" };
-import { colors } from "./colors.ts";
+import { colorsDark, colorsLight, type Colors } from "./colors.ts";
 
-export const zedThemeDark = {
-  name: "Technicolor Dark",
-  appearance: "dark",
+const getZedTheme = (appearance: "dark" | "light", name: string, colors: Colors) => ({
+  name: `Technicolor ${name}`,
+  appearance,
   style: {
     "accents": [
       colors.magenta[0],
@@ -248,10 +248,10 @@ export const zedThemeDark = {
       "function": { color: colors.blue[1] },
       "hint": { color: colors.ink[1] },
       "keyword": { color: colors.magenta[1] },
-      "label": { color: colors.green[1] },
+      "label": { color: colors.purple[1] },
       "link_text": { color: colors.blue[1], font_style: "normal" },
       "link_uri": { color: colors.blue[0] },
-      "namespace": { color: colors.green[1] },
+      "namespace": { color: colors.orange[1] },
       "number": { color: colors.orange[1] },
       "operator": { color: colors.cyan[1] },
       "predictive": { color: colors.cyan[0], font_style: "italic" },
@@ -280,12 +280,12 @@ export const zedThemeDark = {
       "variant": { color: colors.purple[1] },
     },
   },
-};
+});
 
 export const zedTheme = {
   $schema: "https://zed.dev/schema/themes/v0.2.0.json",
   name: "Technicolor",
   description: packageJSON.description,
   author: "Phaux",
-  themes: [zedThemeDark],
+  themes: [getZedTheme("dark", "Dark", colorsDark), getZedTheme("light", "Light", colorsLight)],
 };
