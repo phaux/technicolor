@@ -270,7 +270,7 @@
             "font_style": "italic"
           },
           "emphasis.strong": {
-            "color": "#df8692",
+            "color": "#c46494",
             "font_weight": 700
           },
           "enum": {
@@ -373,19 +373,26 @@
             "color": "#6ec5dd"
           },
           "punctuation.markup": {
-            "color": "#c778d8"
+            "color": "#88563d"
           },
           "punctuation.special": {
             "color": "#88355f"
           },
           "punctuation.special.symbol": {
-            "color": "#88563d"
+            "color": "#974952"
           },
           "selector": {
             "color": "#ce9c82"
           },
+          "selector.class": {
+            "color": "#ce9c82"
+          },
+          "selector.id": {
+            "color": "#df8692"
+          },
           "selector.pseudo": {
-            "color": "#6ec5dd"
+            "color": "#6ec5dd",
+            "font_style": "italic"
           },
           "string": {
             "color": "#53b996"
@@ -474,7 +481,8 @@
             "color": "#c46494"
           },
           "variable.special": {
-            "color": "#6ec5dd"
+            "color": "#6ec5dd",
+            "font_style": "italic"
           },
           "variant": {
             "color": "#df8692"
@@ -748,7 +756,7 @@
             "font_style": "italic"
           },
           "emphasis.strong": {
-            "color": "#dd757e",
+            "color": "#c75d92",
             "font_weight": 700
           },
           "enum": {
@@ -851,19 +859,26 @@
             "color": "#44a2bd"
           },
           "punctuation.markup": {
-            "color": "#b752ce"
+            "color": "#e6c3b0"
           },
           "punctuation.special": {
             "color": "#e0a4c2"
           },
           "punctuation.special.symbol": {
-            "color": "#e6c3b0"
+            "color": "#ebb0b6"
           },
           "selector": {
             "color": "#c98b6a"
           },
+          "selector.class": {
+            "color": "#c98b6a"
+          },
+          "selector.id": {
+            "color": "#dd757e"
+          },
           "selector.pseudo": {
-            "color": "#44a2bd"
+            "color": "#44a2bd",
+            "font_style": "italic"
           },
           "string": {
             "color": "#3aa882"
@@ -952,7 +967,8 @@
             "color": "#c75d92"
           },
           "variable.special": {
-            "color": "#44a2bd"
+            "color": "#44a2bd",
+            "font_style": "italic"
           },
           "variant": {
             "color": "#dd757e"

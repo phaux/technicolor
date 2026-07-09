@@ -625,6 +625,7 @@
         "punctuation.terminator",
         "punctuation.accessor",
         "punctuation.definition.attribute",
+        "punctuation.definition.section",
         "punctuation.definition.tag",
         "punctuation.brackets.attribute",
         "punctuation.section.property-list",
@@ -694,9 +695,6 @@
         "keyword.control",
         "keyword.modifier",
         "keyword.other",
-        "keyword.operator.ternary",
-        "keyword.operator.arrow",
-        "keyword.operator.quantifier",
         "keyword.type.go",
         "source.go keyword",
         "storage.type",
@@ -708,6 +706,9 @@
     },
     {
       "scope": [
+        "keyword.operator.ternary",
+        "keyword.operator.arrow",
+        "keyword.operator.quantifier",
         "support.type.property-name.table.toml",
         "punctuation.definition.group",
         "punctuation.definition.begin.frontmatter",
@@ -720,10 +721,17 @@
     },
     {
       "scope": [
-        "variable.language"
+        "variable.language",
+        "keyword.operator.expression",
+        "keyword.operator.typeof",
+        "keyword.operator.new",
+        "string.other.link",
+        "entity.other.attribute-name.pseudo-class",
+        "entity.other.attribute-name.pseudo-element"
       ],
       "settings": {
-        "foreground": "#44a2bd"
+        "foreground": "#44a2bd",
+        "fontStyle": "italic"
       }
     },
     {
@@ -735,9 +743,6 @@
         "keyword.operator.math",
         "keyword.operator.arithmetic",
         "keyword.operator.bitwise",
-        "keyword.operator.expression",
-        "keyword.operator.typeof",
-        "keyword.operator.new",
         "keyword.operator.borrow",
         "keyword.operator.dereference",
         "keyword.operator.address",
@@ -755,8 +760,7 @@
         "keyword.operator.existential",
         "keyword.operator.or",
         "punctuation.definition.logical-expression",
-        "keyword.generator",
-        "string.other.link"
+        "keyword.generator"
       ],
       "settings": {
         "foreground": "#44a2bd"
@@ -781,9 +785,8 @@
         "variable",
         "variable.parameter",
         "variable.other.constant",
-        "entity.name.variable",
-        "entity.other.attribute-name.id",
-        "entity.other.attribute-name.pseudo-element"
+        "support.constant.property-value",
+        "entity.name.variable"
       ],
       "settings": {
         "foreground": "#c75d92"
@@ -799,7 +802,7 @@
         "support.type.builtin",
         "variable.other.enummember",
         "entity.name.type.parameter",
-        "entity.other.attribute-name.pseudo-class"
+        "entity.other.attribute-name.id"
       ],
       "settings": {
         "foreground": "#dd757e"
